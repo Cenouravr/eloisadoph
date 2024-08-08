@@ -1,0 +1,153 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desmatamentos - Conscientização Ambiental</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+    <header>
+        <h1>Desmatamentos: Consequências e Soluções</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#causas">Causas</a></li>
+                <li><a href="#impactos">Impactos</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#ajuda">Como Ajudar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>O que são Desmatamentos?</h2>
+            <p>Os desmatamentos são a remoção deliberada da cobertura florestal, seja parcial ou total, para diversos fins, como agricultura, pecuária, exploração madeireira, entre outros. Esta prática tem sérias consequências ambientais e sociais.</p>
+        </section>
+
+        <section id="causas">
+            <h2>Causas dos Desmatamentos</h2>
+            <p>As principais causas incluem:</p>
+            <ul>
+                <li>Expansão agrícola;</li>
+                <li>Pecuária intensiva;</li>
+                <li>Exploração madeireira não sustentável;</li>
+                <li>Urbanização desordenada;</li>
+                <li>Mineração;</li>
+                <li>Queimadas ilegais.</li>
+            </ul>
+        </section>
+
+        <section id="impactos">
+            <h2>Impactos Ambientais</h2>
+            <p>Os impactos negativos dos desmatamentos são vastos e incluem:</p>
+            <ul>
+                <li>Erosão do solo;</li>
+                <li>Perda de biodiversidade;</li>
+                <li>Alterações climáticas;</li>
+                <li>Desertificação;</li>
+                <li>Escassez de água;</li>
+                <li>Impactos sociais sobre comunidades indígenas e tradicionais.</li>
+            </ul>
+        </section>
+
+        <section id="solucoes">
+            <h2>Soluções para Reduzir Desmatamentos</h2>
+            <p>Algumas medidas para combater os desmatamentos incluem:</p>
+            <ul>
+                <li>Promoção de práticas agrícolas sustentáveis;</li>
+                <li>Restauração de áreas degradadas;</li>
+                <li>Controle e fiscalização ambiental;</li>
+                <li>Políticas de conservação e manejo florestal;</li>
+                <li>Engajamento comunitário e educação ambiental.</li>
+            </ul>
+        </section>
+
+        <section id="ajuda">
+            <h2>Como Você Pode Ajudar?</h2>
+            <p>Você pode contribuir de várias maneiras, como:</p>
+            <ul>
+                <li>Consumo consciente de produtos agrícolas e madeireiros;</li>
+                <li>Participação em iniciativas de reflorestamento;</li>
+                <li>Advocacia por políticas ambientais;</li>
+                <li>Educação e conscientização em sua comunidade.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Desmatamentos - Conscientização Ambiental</p>
+    </footer>
+
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cor de fundo neutra */
+    color: #333; /* Cor do texto principal */
+    line-height: 1.6;
+}
+h1, h2 {
+    color: #8B0000; /* Vermelho escuro para títulos */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.info-box {
+    background-color: #FFA500; /* Laranja para destaque */
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.info-box {
+    background-color: #FFA500; /* Laranja para destaque */
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: #8B0000; /* Vermelho escuro para botões */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #B22222; /* Vermelho mais claro ao passar o mouse */
+}
+
+a {
+    color: #006400; /* Verde escuro para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004d00; /* Tom mais escuro ao passar o mouse */
+}
+@media (max-width: 768px) {
+    /* Ajustes para dispositivos menores */
+    .info-box {
+        padding: 10px;
+    }
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.button:hover {
+    animation: pulse 1s infinite;
+}
